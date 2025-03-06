@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="app.css">
+    <title>Calculator</title>
+    
+</head>
+<body>
+
+    <div class="box">
+        <input type="text" id="display" readonly>
+
+        <div class="btns">
+            <button class=" special" id="clear" >C</button>
+            <button class=" special" id="equal" >=</button>
+            <button onclick="numberFun('7')" class="nums">7</button>
+            <button onclick="numberFun('8')" class="nums">8</button>
+            <button onclick="numberFun('9')" class="nums">9</button>
+            <button onclick="numberFun('+')" class="special" >+</button>
+            <button onclick="numberFun('4')" class="nums">4</button>
+            <button onclick="numberFun('5')" class="nums">5</button>
+            <button onclick="numberFun('6')" class="nums">6</button>
+            <button onclick="numberFun('-')" class="special">-</button>
+            <button onclick="numberFun('1')" class="nums">1</button>
+            <button onclick="numberFun('2')" class="nums">2</button>
+            <button onclick="numberFun('3')" class="nums">3</button>
+            <button onclick="numberFun('*')" class="special" >x</button>
+            <button onclick="numberFun('0')" class="nums">0</button>
+            <button onclick="numberFun('.')" class="nums">.</button>
+            <button onclick="numberFun('3.14')" class="special" >&#960</button>
+            <button onclick="numberFun('/')" class="special" >÷</button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
